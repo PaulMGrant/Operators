@@ -40,8 +40,10 @@ public class Main {
         System.out.println("10-2 = " + result);
 
         boolean isAlien = false;
-        if (isAlien == false)
-            System.out.println("it is not an alien!");
+        if (isAlien == false) { //codeblock { } used to print out more than 1 line
+            System.out.println("it is not an alien!");// only prints when isAlien = false
+            System.out.println("and I am scared of aliens");
+        }
 
     }
 }
