@@ -11,6 +11,10 @@ public class Main {
 
         result = result *10; //2*10=20
         System.out.println("Result x 10 = " + result);
+        result = result / 5; // 20/5 = 4
+        System.out.println("20/5 = " + result);
 
+        result = result % 3;  // the remainder of (4%3) = 1
+        System.out.println("4 modulo 3 = " + result);
     }
 }
